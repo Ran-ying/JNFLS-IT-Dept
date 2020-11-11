@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <style type="text/css">
+        body {
+            font-family: 微软雅黑,黑体;
+            filter: Shadow(Color=black, Direction=135, Strength=2);
+        }
+
+        #prev {
+            font-size: 40px;
+            text-align: center;
+            font-weight: 500;
+            height: 80px;
+            filter: Shadow(Color=black, Direction=135, Strength=5);
+        }
+
+        #prst {
+            font-size: 60px;
+            text-align: center;
+            font-weight: bolder;
+            height: 140px;
+            filter: Shadow(Color=black, Direction=135, Strength=5);
+        }
+
+        #next {
+            font-size: 40px;
+            text-align: center;
+            font-weight: 500;
+            height: 80px;
+            filter: Shadow(Color=black, Direction=135, Strength=5);
+        }
+    </style>
+    <script type="text/javascript">
+        //设置背景
+
+        function SetStyle(bgid) {
+            document.body.style.backgroundPosition = "center";
+            document.body.style.backgroundRepeat = "no-repeat";
+            //document.body.style.backgroundSize = "100% 1440px";
+
+            //document.body.style.backgroundImage = "backgroundRepeat:no-repeat";
+            if (bgid == 1) {
+                document.body.style.backgroundImage = 'url("../images/songs/1.png")';
+                document.getElementById("Lyric").style.color = "White";
+            }
+            else if (bgid == 2) {
+                document.body.style.backgroundImage = 'url("../images/songs/2.png")';
+                document.getElementById("Lyric").style.color = "White";
+            }
+            else if (bgid == 3) {
+                document.body.style.backgroundImage = 'url("../images/songs/3.png")';
+                document.getElementById("Lyric").style.color = "White";
+            }
+            else if (bgid == 4) {
+                document.body.style.backgroundImage = 'url("../images/songs/4.png")';
+                document.getElementById("Lyric").style.color = "White";
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        var xmlhttpstyle;
+        function loadStyle() {
+            xmlhttpstyle = null;
+            if (window.XMLHttpRequest) {// code for IE7, Firefox, Mozilla, etc.
+                xmlhttpstyle = new XMLHttpRequest();
+            }
+            else if (window.ActiveXObject) {// code for IE5, IE6
+                xmlhttpstyle = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            if (xmlhttpstyle != null) {
+                xmlhttpstyle.onreadystatechange = onResponseStyle;
+                xmlhttpstyle.open("GET", "Face.aspx", true);
+                xmlhttpstyle.send(null);
+            }
+            else {
+                alert("背景读取错误");
+            }
+        }
+        function onResponseStyle() {
+            if (xmlhttpstyle.readyState != 4) return;
+            if (xmlhttpstyle.status != 200) {
+                alert("背景读取错误");
+                return;
+            }
+            LyricFace = xmlhttpstyle.responseText;
+            backgroundid = LyricFace.match(/<span id="backgroundlabel">[\s\S]*?</);
+            backgroundid = backgroundid[0].replace('<span id="backgroundlabel">', ""); backgroundid = backgroundid.replace('<', "");
+            SetStyle(backgroundid);
+        }
+    </script>
+
+    <script type="text/javascript">
+        //timer = setTimeout("loadLyric()", 300);
+        var xmlhttplrc;
+        function loadLyric() {
+            xmlhttplrc = null;
+            if (window.XMLHttpRequest) {// code for IE7, Firefox, Mozilla, etc.
+                xmlhttplrc = new XMLHttpRequest();
+            }
+            else if (window.ActiveXObject) {// code for IE5, IE6
+                xmlhttplrc = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            if (xmlhttplrc != null) {
+                xmlhttplrc.onreadystatechange = onResponseLyric;
+                xmlhttplrc.open("GET", "Lyric.aspx", true);
+                xmlhttplrc.send(null);
+            }
+            else {
+                alert("歌词读取错误");
+            }
+        }
+
+        function onResponseLyric() {
+            if (xmlhttplrc.readyState != 4) return;
+            if (xmlhttplrc.status != 200) {
+                alert("歌词读取错误");
+                return;
+            }
+
+            LyricS = xmlhttplrc.responseText;
+            prevlyric = LyricS.match(/<span id="prev">[\s\S]*?</);
+            prevlyric = prevlyric[0].replace('<span id="prev">', ""); prevlyric = prevlyric.replace('<', "");
+
+            prstlyric = LyricS.match(/<span id="prst">[\s\S]*?</);
+            prstlyric = prstlyric[0].replace('<span id="prst">', ""); prstlyric = prstlyric.replace('<', "");
+            nextlyric = LyricS.match(/<span id="next">[\s\S]*?</);
+            nextlyric = nextlyric[0].replace('<span id="next">', ""); nextlyric = nextlyric.replace('<', "");
+
+            if (prstlyric != presentlrc) {
+                document.getElementById("prev").innerHTML = prevlyric;
+                document.getElementById("prst").innerHTML = prstlyric;
+                document.getElementById("next").innerHTML = nextlyric;
+                document.getElementById("prev").start();
+                document.getElementById("prst").start();
+                document.getElementById("next").start();
+                presentlrc = prstlyric;
+
+            }
+            timer = setTimeout("loadLyric()", 100);
+
+        }
+
+    </script>
+</head>
+<body onload='loadLyric();presentlrc = "";loadStyle();SetStyle();' id="pagebody">
+    <div id="Lyric">
+        <marquee direction="up" scrollamount="36" id="prev" behavior="slide">-----</marquee>
+        <marquee direction="up" scrollamount="60" id="prst" behavior="slide">----------</marquee>
+        <marquee direction="up" scrollamount="36" id="next" behavior="slide">-----</marquee>
+    </div>
+
+</body>
+</html>

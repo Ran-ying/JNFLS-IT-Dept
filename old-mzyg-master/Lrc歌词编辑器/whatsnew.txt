@@ -1,0 +1,41 @@
+                ╭═══════════════╮
+                ║         『速配歌词』         ║
+  ╭══════┤ ＋Winamp 2.95  Pro汉化集成版 ├══════╮
+  ║            ║ http://www.superlyrics.net   ║            ║
+  ║            ╰═══════════════╯            ║
+  ║    ╭───────────────────────╮    ║
+  ╰══┤       终身为用户提供免费显示歌词的服务       ├══╯
+        ╰───────────────────────╯
+
+
+  软件名称: 【速配歌词】
+  适用系统: Win9x/Nt/Me/2000/XP
+  官方主页: http://www.superlyrics.net
+  软件作者: 蒋南（NetKool)	
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Winamp 2.95:
+* startup with hung winamp process in background fixed (opens new instance)
+* CD ripping support in media library (with OGG Vorbis encoding support)
+* Preliminary AAC playback support added to in_mp3.dll
+* ryan fixed shuffle again
+* minibrowser ctrl+l fix
+* media library: lots of bugfixes
+* media library: listener count in internet tv/radio
+* media library: query playback mode preferences
+* media library: skinnable list/treeview selection colors
+* nsv: subtitle bugfixes
+* nsv: more buffering options
+* nsv: shoutcast metadata support
+* nsv: better invalid bitstream handling
+* nsv: better display options
+* nsv: new ASYN aux chunk handling.
+* nsv: support for new extended TOC with frame-accurate seeking
+* video: overlay fixes on 556 and other unusual modes
+* video: drag&drop URL to video window now works.
+* video: subtitle fixes.
+* video: support for alt+enter and alt+f4 to leave fullscreen
+* cdda: bugfixes
+* avs: evallib | and & operator fixes
+* in_vorbis fixes/updated libvorbis to post-1.0 cvs
+* in_midi fixes

@@ -1,0 +1,121 @@
+﻿body
+{
+    background-position: center center;
+    background-image: url('../Images/backgrounds/background.png');
+    width: 491px;
+    background-repeat:no-repeat;
+    background-color: #CCCCCC;
+    background-attachment: fixed;
+    font-family: 微软雅黑,黑体;
+}
+
+#above
+{
+    position: absolute;
+
+	height: 0px;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+    margin-bottom: 14px;
+    width: 932px;
+}
+    #below
+{
+    position: absolute;
+
+	
+	z-index: 2;
+	left: 0px;
+	top: 860px;
+    }
+   #loginbox
+   {
+    position: absolute;   
+    z-index: 4;
+    left: 441px;
+	top: 162px;
+    width: 489px;
+   }
+#denglu
+   {
+    position: absolute;   
+    z-index: 5;
+    top: 216px;
+    left: 75px;
+    width: 359px;
+}
+#word
+{
+    position: absolute;
+    z-index: 5;
+    top: 856px;
+    left: 4px;
+    margin-top: 2px;
+    font-family: 微软雅黑,黑体;
+    font-size: medium;
+    font-style: normal;
+    color: #FFFFFF;
+    width: 750px;
+}
+#aboutus
+{
+     position: absolute;   
+    z-index: 5;
+        margin-top: 2px;
+    font-family: 微软雅黑,黑体;
+    font-size: medium;
+    font-style: normal;
+    color: #FFFFFF;
+    top: 857px;
+    left: 463px;
+    width: 224px;
+}
+#main
+{
+    position:absolute;
+    z-index: 5;
+    top: 120px;
+    left: 128px;
+    height: 662px;
+    width: 1085px;
+}
+#lhbutton1
+{
+    position:absolute;
+    z-index: 5;
+    top: 187px;
+    left: 369px;
+}
+#lhbutton2
+{
+    position:absolute;
+    z-index: 5;
+    top: 502px;
+    left: 368px;
+    height: 223px;
+    width: 637px;
+}
+#clubshow
+{
+    position:absolute;
+    z-index: 5;
+    top: 243px;
+    left: 304px;
+}
+#clubupload
+{
+    position:absolute;
+    z-index: 5;
+    top: 166px;
+    left: 1261px;
+    height: 344px;
+    width: 77px;
+}
+#clubmanage
+{
+       position:absolute;
+    z-index: 5;
+    top: 507px;
+    left: 302px;
+}

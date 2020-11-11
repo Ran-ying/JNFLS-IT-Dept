@@ -1,0 +1,116 @@
+﻿body 
+{ 
+    font-family:'Microsoft YaHei',黑体;
+    font-size:1em;
+}
+#Button1 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button2 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button3 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button4 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button5 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button6 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button7 {
+    border:2px solid;
+    border-radius:15px;
+    }
+#Button8 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button9 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 2px;
+    border-radius:15px;
+    font-size: xx-large;
+}
+#Button10 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button11 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button12 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button13 {
+    border:2px solid;
+    border-radius:15px;
+}
+#Button14 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox1 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox2 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox3 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox4 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox5 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox6 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox7 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox8 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox9 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox10 {
+    border:2px solid;
+    border-radius:15px;
+}
+#TextBox11 {
+    border:2px solid;
+    border-radius:15px;
+}
+#timefrom {
+    border:2px solid;
+    border-radius:15px;
+}
+#timeto {
+    border:2px solid;
+    border-radius:15px;
+}

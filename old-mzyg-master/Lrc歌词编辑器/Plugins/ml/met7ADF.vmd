@@ -1,0 +1,17 @@
+[gen_ml_config]
+av_col_artist=155
+av_col_albums=48
+av_col_tracks=45
+av2_col_album=200
+av2_col_tracks=47
+artist_sel=
+album_sel=
+mv_col_fn=140
+mv_col_title=140
+mv_col_album=140
+mv_col_artist=140
+mv_col_track=55
+mv_col_genre=75
+mv_col_year=55
+mv_col_length=55
+lastquery=

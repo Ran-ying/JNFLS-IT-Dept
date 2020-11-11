@@ -1,0 +1,110 @@
+.alert
+	{
+		color:#8080cd;
+		width:250px;
+		white-space:nowrap;
+	}
+.alert_ahead
+	{
+		background: #8080cd;
+		color:#FFFFFF;
+		padding-left: 3px;
+		font-size:25px;
+		text-align:center;
+	}
+.alert_content
+	{
+		position:relative;
+		padding-left:10px;
+		margin:2px 0px 2px 0px;
+		border-top-style:solid;
+		border-top-width:2px;
+		border-top-color:#8080cd;
+		border-bottom-style:solid;
+		border-bottom-width:2px;
+		border-bottom-color:#8080cd;
+		font-size:40px;
+	}
+.alert_type
+	{
+		position:absolute;
+		bottom:0px;
+		right:0px;
+		font-size:20px;
+		color:#8080cd;
+	}
+.alert_weather
+	{
+		font-size:40px;
+		display:inline;
+	}
+.alert_behind
+	{
+		background: #9090dd;
+		color:#FFFFFF;
+		padding-left: 3px;
+		font-size:12px;
+		text-align:center;
+	}
+	
+.present
+	{
+		color:#96bae0;
+		width:250px;
+		white-space:nowrap;
+	}
+.present_ahead
+	{
+		background: #96bae0;
+		color:#FFFFFF;
+		padding-left: 3px;
+		font-size:25px;
+		text-align:center;
+	}
+.link_to_forecast
+	{
+		position:relative;
+		left:260px;
+		top:38px;
+		width:75px;
+		background: #96bae0;
+		color:#FFFFFF;
+		padding-left: 3px;
+		font-size:25px;
+		
+	}
+.present_content
+	{
+		position:relative;
+		margin:2px 0px 2px 0px;
+		border-top-style:solid;
+		border-top-width:2px;
+		border-top-color:#96bae0;
+		border-bottom-style:solid;
+		border-bottom-width:2px;
+		border-bottom-color:#96bae0;
+		
+	}
+.present_type
+	{
+		padding-left:10px;
+		position:absolute;
+		top:0px;
+		left:0px;
+		font-size:20px;
+		color:#96bae0;
+	}
+.present_weather
+	{
+		text-align:right;
+		font-size:40px;
+		padding-right:10px;
+	}
+.present_behind
+	{
+		background: #96bae0;
+		color:#FFFFFF;
+		padding-left: 3px;
+		font-size:20px;
+		text-align:center;
+	}

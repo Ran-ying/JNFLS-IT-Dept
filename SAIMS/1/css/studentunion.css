@@ -1,0 +1,88 @@
+﻿body {
+font-family:"Microsoft YaHei";
+background:url(../image/background.jpg) no-repeat;
+background-size: 100% auto;
+background-color:black;
+}
+
+#top {
+position:absolute;
+top:5%;
+left:0%;
+width:100%;
+display:none;
+}
+
+#top_text {
+text-align:center;
+font-size:200%;
+color:white;
+}
+
+#top_hr {
+width:0%;
+height:1px;
+}
+
+#main {
+position:absolute;
+top:15%;
+left:15%;
+width:70%;
+height:81%;
+background:url(../image/tw1.jpg) no-repeat;
+background-size: 100% auto;
+background-color:#0000ff;
+border-radius:10px;
+border:0px solid black;
+display:none;
+}
+
+#TextBox1 {
+border-radius:5px;
+border:0px solid black;
+}
+
+#TextBox2 {
+border-radius:5px;
+border:0px solid black;
+}
+
+#Button1 {
+border-radius:5px;
+border:0px solid black;
+}
+
+#Button2 {
+border-radius:5px;
+border:0px solid black;
+}
+
+#Button3 {
+border-radius:5px;
+border:0px solid black;
+}
+
+#Panel1 {
+position:absolute;
+left:5%;
+height:75%;
+}
+
+#Panel2 {
+position:absolute;
+left:5%;
+height:75%;
+}
+
+
+#down {
+position:absolute;
+bottom:0%;
+left:0%;
+width:100%;
+text-align:center;
+font-size:80%;
+color:white;
+display:none;
+}

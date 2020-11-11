@@ -1,0 +1,55 @@
+﻿body {
+    background-image:url('1.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: center;
+}
+
+#number {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 2px;
+    border-radius:25px;
+    font-size: xx-large;
+}
+
+#usernumber {
+    border:2px solid;
+    border-radius:25px;
+}
+
+#Button1 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 2px;
+    border-radius:15px;
+    font-size: 20pt;
+}
+
+#Button2 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 2px;
+    border-radius:15px;
+    font-size: 20pt;
+}
+
+#login {
+    border:2px solid;
+    border-radius:15px;
+}
+
+#DropDownList1 {
+    border:2px solid;
+    border-radius:15px;
+}
+
+#kstm {
+    border:2px solid;
+    border-radius:15px;
+}
+
+#jstm {
+    border:2px solid;
+    border-radius:15px;
+}

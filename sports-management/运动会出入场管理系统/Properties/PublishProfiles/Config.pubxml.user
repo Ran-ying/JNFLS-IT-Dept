@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="1.jpg">
+      <publishTime>10/03/2018 14:03:26</publishTime>
+    </File>
+    <File Include="1.js">
+      <publishTime>09/29/2018 12:52:28</publishTime>
+    </File>
+    <File Include="1.wav">
+      <publishTime>09/22/2018 22:06:26</publishTime>
+    </File>
+    <File Include="App_Data/2018运动会.mdf">
+      <publishTime>09/22/2018 20:25:36</publishTime>
+    </File>
+    <File Include="App_Data/2018运动会_log.ldf">
+      <publishTime>09/22/2018 20:25:36</publishTime>
+    </File>
+    <File Include="bin/运动会出入场管理系统.dll">
+      <publishTime>10/10/2018 12:19:13</publishTime>
+    </File>
+    <File Include="bjc.aspx">
+      <publishTime>09/22/2018 22:56:37</publishTime>
+    </File>
+    <File Include="bjr.aspx">
+      <publishTime>09/22/2018 22:56:37</publishTime>
+    </File>
+    <File Include="checkfs.aspx">
+      <publishTime>10/08/2018 21:27:30</publishTime>
+    </File>
+    <File Include="ck.aspx">
+      <publishTime>10/03/2018 10:50:01</publishTime>
+    </File>
+    <File Include="dea.aspx">
+      <publishTime>10/06/2018 22:49:40</publishTime>
+    </File>
+    <File Include="FALSE.aspx">
+      <publishTime>10/07/2018 11:20:32</publishTime>
+    </File>
+    <File Include="false.bmp">
+      <publishTime>09/28/2018 07:28:25</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>10/07/2018 11:46:21</publishTime>
+    </File>
+    <File Include="jquery.js">
+      <publishTime>09/24/2018 09:38:21</publishTime>
+    </File>
+    <File Include="pic.png">
+      <publishTime>06/25/2018 18:17:35</publishTime>
+    </File>
+    <File Include="rk.aspx">
+      <publishTime>10/05/2018 15:19:34</publishTime>
+    </File>
+    <File Include="StyleSheet1.css">
+      <publishTime>10/06/2018 10:45:49</publishTime>
+    </File>
+    <File Include="true.bmp">
+      <publishTime>09/28/2018 07:33:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/10/2018 12:19:17</publishTime>
+    </File>
+    <File Include="ydyc.aspx">
+      <publishTime>09/22/2018 22:56:37</publishTime>
+    </File>
+    <File Include="ydyjl.aspx">
+      <publishTime>10/03/2018 10:50:00</publishTime>
+    </File>
+    <File Include="ydyr.aspx">
+      <publishTime>09/22/2018 22:56:36</publishTime>
+    </File>
+    <File Include="未标题-3.png">
+      <publishTime>09/22/2018 21:55:06</publishTime>
+    </File>
+    <File Include="未标题-4.png">
+      <publishTime>09/22/2018 21:57:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

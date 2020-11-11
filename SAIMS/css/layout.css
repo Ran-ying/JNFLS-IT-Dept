@@ -1,0 +1,42 @@
+
+body { font-family:Verdana; font-size:14px;  background-position: center center;
+    background-image: url('../Images/backgrounds/background.png');
+   
+    background-repeat:no-repeat;
+    background-color: #CCCCCC;
+    background-attachment: fixed;
+     margin:0;
+     font-family: Î¢ÈíÑÅºÚ,ºÚÌå;
+
+}
+
+.tblinks {
+    color: #CCCCCC;
+}
+
+#container {margin:0 auto; width:100%;}
+#header { height:100px; background-image: url('../Images/titles/shangbiaoti.png');
+#sidebar2 { float:right; width:323px; 
+height:500px; }
+in-bottom:5px;}
+#sidebar { float:left; width:200px; height:500px; }
+#sidebar2 { float:right; width:200px; height:500px; }
+#content {
+    
+    background-position: center center;
+    margin: 0 202px !important;
+    height: 500px;
+    background-image: url('../Images/icons/login.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+#footer { 
+      font-family: Î¢ÈíÑÅºÚ,ºÚÌå;
+    font-size: medium;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 60px;
+    background-image: url('../Images/titles/xiabiaoti.png');
+
+}

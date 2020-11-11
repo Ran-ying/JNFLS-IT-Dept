@@ -1,0 +1,6 @@
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\bin\Release\每周一歌歌词生成器.exe.config
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\bin\Release\每周一歌歌词生成器.exe
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\bin\Release\每周一歌歌词生成器.pdb
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\obj\Release\每周一歌歌词生成器.csprojResolveAssemblyReference.cache
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\obj\Release\每周一歌歌词生成器.exe
+C:\Users\13424\Documents\个人文件\每周一歌歌词生成器\每周一歌歌词生成器\obj\Release\每周一歌歌词生成器.pdb
