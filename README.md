@@ -7,7 +7,7 @@
 
 ## TO-DO
 - [ ] [old-mzyg](/old-mzyg) 从2012年至2018年使用的[每周一歌播放软件](https://github.com/Ran-ying/JNFLS-IT-Dept/blob/main/old-mzyg/mzyg/%E6%AF%8F%E5%91%A8%E4%B8%80%E6%AD%8C.exe)我拿到的版本有所损坏，任何制作好的mrc文件都无法播放，请提交此文件的正确版本。  
-- [ ] 2016级信息部网管的运动会程序源码丢失  
+- [ ] [2016级信息部网管](https://github.com/DD6181S03/)的运动会程序源码丢失  
 - [ ] 2018级信息部开发运动会程序源码未添加  
 - [ ] 2018级信息部开发量化系统未添加  
 
