@@ -11,6 +11,11 @@
 - [ ] 2018级信息部开发运动会程序源码未添加  
 - [ ] 2018级信息部开发量化系统未添加  
 
+## Member of IT Dept
+[废物](https://github.com/Ran-ying/)  
+[2016级信息部网管](https://github.com/DD6181S03/)  
+[小马宝莉](https://github.com/AgennyBrof)  
+
 ## Description
 
 ### SAIMS
